@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Switch</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body class="flex justify-center items-center min-h-screen flex-col gap-8">
+    <div class="relative w-32 h-14">
+      <input type="checkbox" id="toggle" class="peer hidden" />
+      <label
+        for="toggle"
+        class="bg-[#d7d7d7] cursor-pointer rounded-full w-full h-full absolute inset-0 peer-checked:bg-[#df2a5d] p-1 transition-all duration-300 before:content-[''] before:block before:w-12 before:h-12 before:rounded-full before:bg-white before:absolute peer-checked:before:translate-x-[calc(100%+24px)] before:transition-all before:duration-300 before:border-8 before:border-[#df2a5d] peer-checked:before:border-[#4f4f4f]"
+      >
+      </label>
+    </div>
+  </body>
+</html>
